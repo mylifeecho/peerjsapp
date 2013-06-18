@@ -1,5 +1,5 @@
 ﻿// Connect to PeerJS, have server assign an ID instead of providing one
-var peer = new Peer({ host: '192.168.137.130', port: 9000 });
+var peer = new Peer({ host: 'localhost', port: 9000 });
 
 // Show this peer's ID.
 peer.on('open', function(id){
